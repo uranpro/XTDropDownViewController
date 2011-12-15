@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE8CC291498E26700F107D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE8CC281498E26700F107D2 /* UIKit.framework */; };
+		0AE8CC2B1498E26700F107D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE8CC2A1498E26700F107D2 /* Foundation.framework */; };
+		0AE8CC2D1498E26700F107D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE8CC2C1498E26700F107D2 /* CoreGraphics.framework */; };
+		0AE8CC331498E26700F107D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8CC311498E26700F107D2 /* InfoPlist.strings */; };
+		0AE8CC351498E26700F107D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8CC341498E26700F107D2 /* main.m */; };
+		0AE8CC391498E26700F107D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8CC381498E26700F107D2 /* AppDelegate.m */; };
+		0AE8CC3C1498E26700F107D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8CC3B1498E26700F107D2 /* ViewController.m */; };
+		0AE8CC3F1498E26700F107D2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8CC3D1498E26700F107D2 /* ViewController_iPhone.xib */; };
+		0AE8CC421498E26700F107D2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8CC401498E26700F107D2 /* ViewController_iPad.xib */; };
+		0AE8CC511498E38400F107D2 /* XTDropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8CC501498E38400F107D2 /* XTDropDownViewController.m */; };
+		0AE8CC531498E3AA00F107D2 /* XTDropDownViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8CC521498E3AA00F107D2 /* XTDropDownViewController_iPhone.xib */; };
+		0AE8CC551498E3CE00F107D2 /* XTDropDownViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8CC541498E3CD00F107D2 /* XTDropDownViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AE8CC241498E26700F107D2 /* DropDownViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AE8CC281498E26700F107D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AE8CC2A1498E26700F107D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AE8CC2C1498E26700F107D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AE8CC301498E26700F107D2 /* DropDownViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropDownViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		0AE8CC321498E26700F107D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AE8CC341498E26700F107D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AE8CC361498E26700F107D2 /* DropDownViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DropDownViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0AE8CC371498E26700F107D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AE8CC381498E26700F107D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AE8CC3A1498E26700F107D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AE8CC3B1498E26700F107D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AE8CC3E1498E26700F107D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		0AE8CC411498E26700F107D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		0AE8CC4F1498E38400F107D2 /* XTDropDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTDropDownViewController.h; sourceTree = "<group>"; };
+		0AE8CC501498E38400F107D2 /* XTDropDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTDropDownViewController.m; sourceTree = "<group>"; };
+		0AE8CC521498E3AA00F107D2 /* XTDropDownViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTDropDownViewController_iPhone.xib; sourceTree = "<group>"; };
+		0AE8CC541498E3CD00F107D2 /* XTDropDownViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XTDropDownViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AE8CC211498E26700F107D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8CC291498E26700F107D2 /* UIKit.framework in Frameworks */,
+				0AE8CC2B1498E26700F107D2 /* Foundation.framework in Frameworks */,
+				0AE8CC2D1498E26700F107D2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE8CC191498E26600F107D2 = {
+			isa = PBXGroup;
+			children = (
+				0AE8CC2E1498E26700F107D2 /* DropDownViewControllerDemo */,
+				0AE8CC271498E26700F107D2 /* Frameworks */,
+				0AE8CC251498E26700F107D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AE8CC251498E26700F107D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8CC241498E26700F107D2 /* DropDownViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AE8CC271498E26700F107D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8CC281498E26700F107D2 /* UIKit.framework */,
+				0AE8CC2A1498E26700F107D2 /* Foundation.framework */,
+				0AE8CC2C1498E26700F107D2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AE8CC2E1498E26700F107D2 /* DropDownViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8CC4E1498E38400F107D2 /* XTDropDownViewController */,
+				0AE8CC371498E26700F107D2 /* AppDelegate.h */,
+				0AE8CC381498E26700F107D2 /* AppDelegate.m */,
+				0AE8CC3A1498E26700F107D2 /* ViewController.h */,
+				0AE8CC3B1498E26700F107D2 /* ViewController.m */,
+				0AE8CC3D1498E26700F107D2 /* ViewController_iPhone.xib */,
+				0AE8CC401498E26700F107D2 /* ViewController_iPad.xib */,
+				0AE8CC2F1498E26700F107D2 /* Supporting Files */,
+			);
+			path = DropDownViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		0AE8CC2F1498E26700F107D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8CC301498E26700F107D2 /* DropDownViewControllerDemo-Info.plist */,
+				0AE8CC311498E26700F107D2 /* InfoPlist.strings */,
+				0AE8CC341498E26700F107D2 /* main.m */,
+				0AE8CC361498E26700F107D2 /* DropDownViewControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AE8CC4E1498E38400F107D2 /* XTDropDownViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8CC4F1498E38400F107D2 /* XTDropDownViewController.h */,
+				0AE8CC501498E38400F107D2 /* XTDropDownViewController.m */,
+				0AE8CC521498E3AA00F107D2 /* XTDropDownViewController_iPhone.xib */,
+				0AE8CC541498E3CD00F107D2 /* XTDropDownViewController_iPad.xib */,
+			);
+			path = XTDropDownViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AE8CC231498E26700F107D2 /* DropDownViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE8CC451498E26700F107D2 /* Build configuration list for PBXNativeTarget "DropDownViewControllerDemo" */;
+			buildPhases = (
+				0AE8CC201498E26700F107D2 /* Sources */,
+				0AE8CC211498E26700F107D2 /* Frameworks */,
+				0AE8CC221498E26700F107D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDownViewControllerDemo;
+			productName = DropDownViewControllerDemo;
+			productReference = 0AE8CC241498E26700F107D2 /* DropDownViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AE8CC1B1498E26600F107D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0AE8CC1E1498E26600F107D2 /* Build configuration list for PBXProject "DropDownViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AE8CC191498E26600F107D2;
+			productRefGroup = 0AE8CC251498E26700F107D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AE8CC231498E26700F107D2 /* DropDownViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AE8CC221498E26700F107D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8CC331498E26700F107D2 /* InfoPlist.strings in Resources */,
+				0AE8CC3F1498E26700F107D2 /* ViewController_iPhone.xib in Resources */,
+				0AE8CC421498E26700F107D2 /* ViewController_iPad.xib in Resources */,
+				0AE8CC531498E3AA00F107D2 /* XTDropDownViewController_iPhone.xib in Resources */,
+				0AE8CC551498E3CE00F107D2 /* XTDropDownViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AE8CC201498E26700F107D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE8CC351498E26700F107D2 /* main.m in Sources */,
+				0AE8CC391498E26700F107D2 /* AppDelegate.m in Sources */,
+				0AE8CC3C1498E26700F107D2 /* ViewController.m in Sources */,
+				0AE8CC511498E38400F107D2 /* XTDropDownViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AE8CC311498E26700F107D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE8CC321498E26700F107D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AE8CC3D1498E26700F107D2 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE8CC3E1498E26700F107D2 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0AE8CC401498E26700F107D2 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AE8CC411498E26700F107D2 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AE8CC431498E26700F107D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AE8CC441498E26700F107D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AE8CC461498E26700F107D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropDownViewControllerDemo/DropDownViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DropDownViewControllerDemo/DropDownViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AE8CC471498E26700F107D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DropDownViewControllerDemo/DropDownViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DropDownViewControllerDemo/DropDownViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE8CC1E1498E26600F107D2 /* Build configuration list for PBXProject "DropDownViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE8CC431498E26700F107D2 /* Debug */,
+				0AE8CC441498E26700F107D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AE8CC451498E26700F107D2 /* Build configuration list for PBXNativeTarget "DropDownViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE8CC461498E26700F107D2 /* Debug */,
+				0AE8CC471498E26700F107D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AE8CC1B1498E26600F107D2 /* Project object */;
+}
