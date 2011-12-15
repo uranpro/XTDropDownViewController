@@ -70,8 +70,7 @@
                                                                            action:@selector(shadowViewClick:)] autorelease];
     [_shadowView addGestureRecognizer:tap];
     
-    _headFrame = _headView.frame;
-    _shadowFrame = _shadowView.frame;
+    _headHeight = _headView.frame.size.height;
     
 }
 
@@ -108,16 +107,16 @@
     
     switch (o) {
         case UIInterfaceOrientationPortrait:
-            y = _headFrame.size.height * sign;
+            y = _headHeight * sign;
             break;
         case UIInterfaceOrientationLandscapeLeft:
-            x = _headFrame.size.height * sign;
+            x = _headHeight * sign;
             break;
         case UIInterfaceOrientationLandscapeRight:
-            x = _headFrame.size.height * sign * -1.0;
+            x = _headHeight * sign * -1.0;
             break;
         case UIInterfaceOrientationPortraitUpsideDown:
-            y = _headFrame.size.height * sign * -1.0;
+            y = _headHeight * sign * -1.0;
             break;
     }
     
@@ -138,23 +137,24 @@
 
 - (void)commitViewVisibility:(BOOL)visible {
     
+    CGSize vs = self.view.bounds.size;
     CGRect hf = _headView.frame;
     _headView.frame = CGRectMake(hf.origin.x,
                                  hf.origin.y,
                                  hf.size.width,
-                                 visible ? _headFrame.size.height : 0);
+                                 visible ? _headHeight : 0);
     
     CGRect sf = _shadowView.frame;
 //    _shadowView.frame = CGRectMake(sf.origin.x,
-//                                   visible ? _shadowFrame.origin.y : (_shadowFrame.origin.y + sf.size.height),
+//                                   visible ? _headHeight : (_headHeight + sf.size.height),
 //                                   sf.size.width,
 //                                   sf.size.height);
     _shadowView.frame = CGRectMake(sf.origin.x,
-                                   visible ? _shadowFrame.origin.y : 0,
-                                   sf.size.width,
+                                   visible ? _headHeight : 0,
+                                   vs.width,
                                    visible ?
-                                   _shadowFrame.size.height :
-                                   _shadowFrame.size.height + _shadowFrame.origin.y);
+                                   vs.height - _headHeight :
+                                   vs.height);
     _shadowView.alpha = visible ? 1 : 0;
     
 }

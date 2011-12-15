@@ -13,9 +13,8 @@
 @private
     BOOL _viewsIsVisible;
     
-    // initial frames
-    CGRect _headFrame;
-    CGRect _shadowFrame;
+    // initial head height
+    CGFloat _headHeight;
     
     UIInterfaceOrientation _orientation;
 }
